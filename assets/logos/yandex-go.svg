@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" fill="none">
+  <rect width="42" height="42" rx="10" fill="#1a0800"/>
+  <rect x="4" y="4" width="34" height="34" rx="8" fill="#FF3B00" opacity="0.15"/>
+  <text x="21" y="28" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="22" fill="#FF6B00">Я</text>
+  <rect x="26" y="30" width="8" height="3" rx="1.5" fill="#FF6B00" opacity="0.5"/>
+  <circle cx="28" cy="33.5" r="1.2" fill="#FF6B00" opacity="0.4"/>
+  <circle cx="32" cy="33.5" r="1.2" fill="#FF6B00" opacity="0.4"/>
+</svg>
