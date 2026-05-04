@@ -1017,15 +1017,29 @@
     }
 
     @media (max-width: 640px) {
-      #navbar { padding: 16px 20px; }
-      #hero { padding: 0 20px; padding-top: 80px; }
-      .section { padding: 64px 20px; }
-      #platforms { padding: 64px 20px; }
-      #footer { padding: 40px 20px; }
-      .hero-stats { flex-direction: column; gap: 20px; }
-      .projects-grid { grid-template-columns: 1fr; }
-      .hero-buttons { flex-direction: column; }
+      /* Navbar */
+      #navbar { padding: 14px 20px; }
+      .nav-logo-text { font-size: 14px; white-space: nowrap; }
+      .nav-link { display: none; }
+      .nav-btn { padding: 7px 14px; font-size: 13px; }
+
+      /* Hero */
+      #hero { padding: 0 20px; padding-top: 70px; }
+      .hero-eyebrow-text { font-size: 10px; letter-spacing: 0.08em; }
+      .hero-h1 { font-size: 2rem; }
+      .hero-subtitle { font-size: 15px; margin-bottom: 28px; }
+      .hero-buttons { flex-direction: column; margin-bottom: 36px; }
       .btn-primary, .btn-outline { width: 100%; justify-content: center; }
+      .hero-stats { flex-direction: row; gap: 20px; flex-wrap: wrap; }
+      .hero-stat-num { font-size: 1.4rem; }
+
+      /* Sections */
+      .section { padding: 56px 20px; }
+      #platforms { padding: 56px 20px; }
+      #footer { padding: 36px 20px; }
+
+      /* Projects */
+      .projects-grid { grid-template-columns: 1fr; }
     }
 
     /* ===================== CONFERENCES ===================== */
